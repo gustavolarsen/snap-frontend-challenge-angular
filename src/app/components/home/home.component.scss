@@ -1,0 +1,39 @@
+@import '../../../colors.scss';
+
+.app-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .presentation {
+    width: 430px;
+    margin-left: 10rem;
+    .title {
+      font-size: 4rem;
+      color: $primary-text;
+    }
+    p {
+      margin: 3rem 0;
+      line-height: 1.5rem;
+    }
+
+    .client-logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 5rem;
+      gap: 1.5rem;
+    }
+  }
+
+  .image {
+    padding: 3rem;
+    margin-right: 5rem;
+
+    img {
+      width: 550px;
+      height: 720px;
+      object-fit: fill;
+    }
+  }
+}

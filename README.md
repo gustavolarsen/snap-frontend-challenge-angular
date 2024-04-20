@@ -1,27 +1,25 @@
-# SnapFrontendChallengeAngular
+# Snap Frontend Mentor Challenge em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+Projeto criado com [Angular CLI](https://github.com/angular/angular-cli) versão 16.2.14.
 
-## Development server
+## Sobre
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto foi criado com o itito de participar do **Frontend Mentor Challange**, onde o objetivo era criar página incial de uma empresa fictícia chamada SNAP.
 
-## Code scaffolding
+Escolhi usar o **Angular 16** para praticar os estudos nessa ferramenta. Angular para
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para saber mais sobre os desafios do Frontend Mentor, acesse [frontendmentor.io](https://www.frontendmentor.io/challenges)
 
-## Build
+## Como rodar o projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Pré-requisitos
 
-## Running unit tests
+Possuir o Node 18 ou superior
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Após clonar o repositório, através dop terminal, dentro da pasta do projeto rode o comando abaixo:
 
-## Running end-to-end tests
+    $ npm start
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Protótipo
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![alt text](desktop-preview.jpg)

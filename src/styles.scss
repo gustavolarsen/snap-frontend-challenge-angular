@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue';
+}
+
+body {
+  background-color: $bg-color;
+  font-weight: 500;
+  color: $secondary-text;
+  max-width: 1440px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-text;
+}
+
+a:hover {
+  color: $primary-text;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  color: $secondary-text;
+  border-radius: 12px;
+  cursor: pointer;
+
+  &.primary {
+    background-color: $bg-color;
+
+    &:hover {
+      color: $primary-text;
+      font-weight: 700;
+    }
+  }
+
+  &.secondary {
+    border: 1px solid $secondary-text;
+
+    &:hover {
+      color: $bg-color;
+      background-color: $secondary-text;
+    }
+  }
+
+  &.terciary {
+    background-color: $primary-text;
+    color: $bg-color;
+    font-weight: 700;
+    border: 1px solid;
+
+    &:hover {
+      background-color: $bg-color;
+      color: $primary-text;
+      border: 1px solid;
+    }
+  }
+}
