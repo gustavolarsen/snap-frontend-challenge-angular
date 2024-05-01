@@ -1,9 +1,5 @@
 # Snap Frontend Mentor Challenge em Angular
 
-Projeto criado com [Angular CLI](https://github.com/angular/angular-cli) versão 16.2.14.
-
-## Sobre
-
 Este projeto foi criado com o objetivo de participar do **Frontend Mentor Challange**, onde o desafio era criar página incial de uma empresa fictícia chamada SNAP.
 
 Escolhi usar o **Angular 16** para praticar a utilização do framework, utilizabndo comandos CLI para criação de componentes.
