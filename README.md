@@ -4,22 +4,24 @@ Projeto criado com [Angular CLI](https://github.com/angular/angular-cli) versão
 
 ## Sobre
 
-Este projeto foi criado com o itito de participar do **Frontend Mentor Challange**, onde o objetivo era criar página incial de uma empresa fictícia chamada SNAP.
+Este projeto foi criado com o objetivo de participar do **Frontend Mentor Challange**, onde o desafio era criar página incial de uma empresa fictícia chamada SNAP.
 
-Escolhi usar o **Angular 16** para praticar os estudos nessa ferramenta. Angular para
+Escolhi usar o **Angular 16** para praticar a utilização do framework, utilizabndo comandos CLI para criação de componentes.
 
 Para saber mais sobre os desafios do Frontend Mentor, acesse [frontendmentor.io](https://www.frontendmentor.io/challenges)
 
-## Como rodar o projeto
-
 ### Pré-requisitos
 
-Possuir o Node 18 ou superior
+- Angular 16
 
-Após clonar o repositório, através dop terminal, dentro da pasta do projeto rode o comando abaixo:
+## Como rodar o projeto
 
-    $ npm start
+Após clonar o repositório, através dop terminal, dentro da pasta do projeto, rode os comando abaixo para instalar as dependências e executar o projeto
 
-## Protótipo
+    $ npm install
+
+    $ npm start ou ng serve
+
+## Interface do sistema
 
 ![alt text](desktop-preview.jpg)
